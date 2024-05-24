@@ -24,10 +24,10 @@ Cada capítulo do livro estará presente no repositório, com breves notas
 importantes sobre o conteúdo. Além disso os códigos de exemplos e exercícios
 foram reproduzidos aqui, utilizando-se a seguinte convenção:
 
-* Códigos de exemplo: `cNN\_sN.N\_NN`, onde cNN representa o número do capítulo,
-  sN.N representa a seção dentro de cada capítulo, e NN representa o número do
-  código (conforme uma numeração sequencial que fui criando e anotando na 2ª
-  edição do livro; a numeração reinicia em cada seção).
+* Códigos de exemplo: `cNN\_sN.N\_cNN`, onde cNN representa o número do
+  capítulo, sN.N representa a seção dentro de cada capítulo, e cNN representa o
+  número do código (conforme uma numeração sequencial que fui criando e anotando
+  na 2ª edição do livro; a numeração reinicia em cada capítulo).
 * Exercícios: `cNN\_sN.N\_eN.N`, onde cNN e sN.N tem os mesmos significados já
   explicados, e eN.N corresponde ao número do exercício conforme identificado no
   próprio livro.
