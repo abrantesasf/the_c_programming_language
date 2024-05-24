@@ -95,4 +95,24 @@ opcionais. Por exemplo:
 
 ## 1.3 A sentença for
 
-(em breve)
+Em qualquer contexto onde é permitido utilizar o valor de uma variável de certo
+tipo, também podemos utilizar uma expressão complexa que retorna um valor desse
+mesmo tipo.
+
+O loop for é uma generalização do loop while. A escolha entre eles é um tanto
+arbitrária, baseado em qual parece mais claro na situação em questão.
+
+
+## 1.4 Constantes simbólicas
+
+Não devemos deixar números mágicos soltos pelo código. O melhor a fazer é dar
+nomes úteis para esses números mágicos. Uma maneira de fazer isso é criando
+**nomes simbólicos**, também chamados de **constantes simbólicas**, para
+identificar esses números. Isso é feito com a diretiva "#define":
+
+`#define nome texto_a_ser_colocado`
+
+Note que as constantes simbólicas NÃO SÃO variáveis, não podem ser
+declaradas. Note também que não devemos colocar um ";" ao final da criação das
+constantes simbólicas pois, caso contrário, esse ";" também seria colocado no
+código.
