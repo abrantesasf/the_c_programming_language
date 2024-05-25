@@ -116,3 +116,25 @@ Note que as constantes simbólicas NÃO SÃO variáveis, não podem ser
 declaradas. Note também que não devemos colocar um ";" ao final da criação das
 constantes simbólicas pois, caso contrário, esse ";" também seria colocado no
 código.
+
+
+## 1.5 Input e output de caracteres
+
+A entrada e saída de caracteres, independentemente de onde esses caracteres
+venham ou para onde esses caracteres vão, é feita através de **streams** de
+caracteres. Atenção:
+
+* Um **stream de texto** é uma seqüência de caracteres divididos em linhas;
+* Cada linha contém 0 ou mais caracteres seguidos por um `\n`
+* As bibliotecas que lidam com streams de texto devem seguir as duas observações
+  acima
+* O programador não precisa se preocupar em como as linhas são representadas
+  fora de seu programa: basta saber que em seu programa os streams de texto
+  seguem o modelo acima
+
+Funções para ler e/ou escrever **UM CARACTERE POR VEZ**:
+
+* `getchar`: lê o próximo caractere de input a partir de uma stream de texto e
+  retorna o valor desse caractere
+* `putchar`: imprime um caractere toda vez que é chamada
+
