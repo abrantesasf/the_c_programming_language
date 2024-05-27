@@ -138,3 +138,20 @@ Funções para ler e/ou escrever **UM CARACTERE POR VEZ**:
   retorna o valor desse caractere
 * `putchar`: imprime um caractere toda vez que é chamada
 
+Sempre tenha em mente o modelo de funcionamento dos streams de texto. Isso é tão
+importante que vou repetir aqui:
+
+* Um stream de texto é uma **seqüência de caracteres divididos em linhas**
+* Cada linha contém 0 ou mais caracteres seguidos por um `\n`
+* O programador não precisa se preocupar em como as linhas são representadas
+  fora de seu programa: basta saber que em seu programa os streams de texto
+  seguem o modelo acima
+
+Um caractere escrito entre aspas simples representa um valor inteiro igual ao
+valor numérico desse caractere no character set da máquina. Nós chamamos
+caracteres entre aspas simples de **caracteres constantes**. Atenção:
+
+* 'X' = **caractere constante** (utilizamos aspas simples)
+* "XX" = **string constante** (utilizamos aspas duplas)
+
+
