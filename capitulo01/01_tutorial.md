@@ -154,4 +154,9 @@ caracteres entre aspas simples de **caracteres constantes**. Atenção:
 * 'X' = **caractere constante** (utilizamos aspas simples)
 * "XX" = **string constante** (utilizamos aspas duplas)
 
+Observações importantes:4
+
+* Operações de atribuição (=) tem associatividade à direita;
+* Operações de comparação lógica tem associatividade à esquerda e avaliam
+  em curto circuito.
 
