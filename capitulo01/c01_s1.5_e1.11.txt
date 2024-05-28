@@ -1,0 +1,32 @@
+/**
+ * c01_s1.5_e1.11.txt (página 21)
+ *
+ * Lembre-se de que:
+ *    - Um stream de texto é uma seqüência de caracteres divididos em linhas
+ *    - E uma linha contém 0 ou mais caracteres terminados por '\n'
+ */
+
+
+/*
+ * Como testar o programa que conta as linhas, palavras e caracteres? Que tipos
+ * de inputs tem potencial de revelar bugs?
+ *
+ * 1) Teste com frases bem formadas e verifique o resultado.
+ *
+ * 2) Teste com situações com output bem conhecido, como por exemplo:
+ *       - uma palavra de um caractere: o output deve ser 1 1 2
+ *       - uma palavra com dois caracteres: o output deve ser 1 1 3
+ *       - duas palavras com um caractere: o output deve ser 1 2 4
+ *       - duas palavras com um caractere, em linhas diferentes: o output deve
+ *         ser 2 2 4
+ *
+ * 3) Teste situações potencialmente problemáticas, como por exemplo:
+ *       - teste sem nenhum input
+ *       - sem nenhuma palavra, só quebras de linha
+ *       - sem nenhuma palavra, só "brancos" (espaços, tabs e quebras de linha)
+ *       - teste uma palavra por linha, sem brancos (espaços e tabs)
+ *       - teste com palavras começando no início da linha
+ *       - teste com palavras começando após diversos tipos de brancos
+ *       - teste colocando diversos tipos de brancos entre as palavras e ente as
+ *         linhas
+ */

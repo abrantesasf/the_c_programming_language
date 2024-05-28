@@ -160,3 +160,39 @@ Observações importantes:4
 * Operações de comparação lógica tem associatividade à esquerda e avaliam
   em curto circuito.
 
+
+## 1.6 Arrays
+
+Os índices dos arrays sempre começam em 0 (zero) e podem ser qualquer expressão
+que resulte em um inteiro.
+
+O valor numérico de um dígito é dado por `c - '0'`, onde c é uma variável
+inteira ou char que está armazenando o dígito. Isso dá certo porque, na tabela
+ASCII, os valores dos caracteres que representam os dígitos são os seguintes:
+
+   Dígito em caractere   ASCII
+           0              48
+           1              49
+           2              50
+           3              51
+           4              52
+           5              53
+           6              54
+           7              55
+           8              56
+           9              57
+
+Assim, quando calculamos `c - '0'`, estamos calculando um valor numérico de 0 a
+9, da seguinte maneira:
+
+* Se c armazenar o caractere '4', ao fazermos `c - '0'` estamos fazendo, na
+  verdade, 52 - 48, que resulta em 4;
+* Se c armazenar o caractere '8', ao fazermos `c - '0'` estamos fazendo, na
+  verdade, 56 - 48, que resulta em 8;
+* E assim por diante.
+
+Em geral, se c é uma variável inteira (ou char) que armazena o valor de um
+dígito representado por um caractere ASCII, `c - '0'` é uma expressão inteira
+com um valor entre 0 e 9, correspondendo ao caractere entre '0' e '9' armazenado
+na variável c.
+  
