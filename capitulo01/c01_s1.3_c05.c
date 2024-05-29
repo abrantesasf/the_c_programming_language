@@ -1,8 +1,13 @@
 /**
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * 2ª edição, 1988
+ * 
  * c01_s1.3_c05.c (página 13)
  *
  * Imprime uma tabela Fahrenheit-Celsius,
- * para fahr = 0, 20, ..., 300.
+ * para fahr = 0, 20, ..., 300, utilizando um
+ * loop for ao invés de um loop while.
  */
 
 #include <stdio.h>

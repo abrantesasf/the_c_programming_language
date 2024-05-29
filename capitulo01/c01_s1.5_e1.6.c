@@ -1,6 +1,11 @@
 /**
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * 2ª edição, 1988
+ * 
  * c01_s1.5_e1.6.c (página 17)
  *
+ * Exercício 1.6:
  * Verifica que a expressão "getchar() != EOF" é 0 ou 1.
  */
 

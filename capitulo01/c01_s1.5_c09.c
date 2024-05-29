@@ -1,8 +1,12 @@
 /**
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * 2ª edição, 1988
+ * 
  * c01_s1.5_c09.c (página 18)
  *
  * Conta a quantidade de caracteres no input.
- * 1ª versão
+ * 1ª versão.
  */
 
 #include <stdio.h>

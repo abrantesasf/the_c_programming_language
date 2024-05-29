@@ -1,8 +1,14 @@
 /**
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * 2ª edição, 1988
+ * 
  * c01_s1.4_c06.c (página 15)
  *
  * Imprime uma tabela Fahrenheit-Celsius,
- * para fahr = 0, 20, ..., 300.
+ * para fahr = 0, 20, ..., 300, utilizando
+ * constantes simbólicas para retirnar números
+ * mágicos do código principal.
  */
 
 #include <stdio.h>

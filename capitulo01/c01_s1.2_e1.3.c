@@ -1,8 +1,14 @@
 /**
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * 2ª edição, 1988
+ * 
  * c01_s1.2_e1.3.c (página 13)
  *
+ * Exercício 1.3:
  * Imprime uma tabela Fahrenheit-Celsius,
- * para fahr = 0, 20, ..., 300.
+ * para fahr = 0, 20, ..., 300, com um título
+ * acima da tabela.
  */
 
 #include <stdio.h>

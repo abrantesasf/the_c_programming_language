@@ -1,4 +1,8 @@
 /**
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * 2ª edição, 1988
+ * 
  * c01_s1.2_c03.c (página 9)
  *
  * Imprime uma tabela Fahrenheit-Celsius,
