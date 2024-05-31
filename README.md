@@ -48,7 +48,7 @@ C89:
 Novamente, pouco tempo depois, T&G atualizaram seu livro de soluções para a
 segunda edição do K&R:
 
-![T&G 2ª edição](https://raw.githubusercontent.com/abrantesasf/the_c_programming_language/master/imagens/c2ans.png)
+![T&G 2ª edição](https://raw.githubusercontent.com/abrantesasf/the_c_programming_language/master/imagens/c2ans.jpg)
 
 
 ## Outras informações
