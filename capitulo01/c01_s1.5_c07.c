@@ -1,9 +1,13 @@
 /**
  * The C Programming Language
  * Brian W. Kernighan & Dennis M. Ritchie
- * 2ª edição, 1988
+ * (2ª edição em 1988)
+ *
+ * The C Answer Book
+ * Clovis L. Tondo & Scott E. Gimpel
+ * (2ª edição em 1989)
  * 
- * c01_s1.5_c07.c (página 16)
+ * c01_s1.5_c07.c (K&R: página 16)
  *
  * Faz a cópia de caracteres, copiando o input para
  * o output, um caractere por vez. 1ª versão.

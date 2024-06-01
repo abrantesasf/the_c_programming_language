@@ -1,9 +1,13 @@
 /**
  * The C Programming Language
  * Brian W. Kernighan & Dennis M. Ritchie
- * 2ª edição, 1988
+ * (2ª edição em 1988)
+ *
+ * The C Answer Book
+ * Clovis L. Tondo & Scott E. Gimpel
+ * (2ª edição em 1989)
  * 
- * c01_s1.5_e1.8.c (página 20)
+ * c01_s1.5_e1.8.c (K&R: página 20; T&G: páginas 9-10)
  *
  * Exercício 1.8:
  * Programa para contar "brancos", espaços, tabulações

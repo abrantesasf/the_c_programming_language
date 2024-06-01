@@ -1,9 +1,13 @@
 /**
  * The C Programming Language
  * Brian W. Kernighan & Dennis M. Ritchie
- * 2ª edição, 1988
+ * (2ª edição em 1988)
+ *
+ * The C Answer Book
+ * Clovis L. Tondo & Scott E. Gimpel
+ * (2ª edição em 1989)
  * 
- * c01_s1.3_e1.5.c (página 14)
+ * c01_s1.3_e1.5.c (K&R: página 14; T&G: página 6)
  *
  * Exercício 1.5:
  * Imprime uma tabela Fahrenheit-Celsius,

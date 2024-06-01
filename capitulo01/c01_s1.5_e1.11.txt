@@ -1,5 +1,17 @@
 /**
- * c01_s1.5_e1.11.txt (página 21)
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * (2ª edição em 1988)
+ *
+ * The C Answer Book
+ * Clovis L. Tondo & Scott E. Gimpel
+ * (2ª edição em 1989)
+ *
+ * c01_s1.5_e1.11.txt (K&R: página 21; T&G: página 15)
+ *
+ * Exercício 1.11:
+ * Como testar o programa que conta as linhas, palavras e caracteres? Que tipos
+ * de inputs tem potencial de revelar bugs?
  *
  * Lembre-se de que:
  *    - Um stream de texto é uma seqüência de caracteres divididos em linhas
@@ -7,10 +19,7 @@
  */
 
 
-/*
- * Como testar o programa que conta as linhas, palavras e caracteres? Que tipos
- * de inputs tem potencial de revelar bugs?
- *
+/**
  * 1) Teste com frases bem formadas e verifique o resultado.
  *
  * 2) Teste com situações com output bem conhecido, como por exemplo:

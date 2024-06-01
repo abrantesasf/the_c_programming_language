@@ -1,5 +1,13 @@
 /**
- * c01_s1.5_c12.c (página 20)
+ * The C Programming Language
+ * Brian W. Kernighan & Dennis M. Ritchie
+ * (2ª edição em 1988)
+ *
+ * The C Answer Book
+ * Clovis L. Tondo & Scott E. Gimpel
+ * (2ª edição em 1989)
+ * 
+ * c01_s1.5_c12.c (K&R: página 20)
  *
  * Conta a quantidade de linhas, palavras e caracteres em um input,
  * considerando que uma palavra é qualquer seqüência de caracteres

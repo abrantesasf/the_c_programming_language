@@ -1,9 +1,13 @@
 /**
  * The C Programming Language
  * Brian W. Kernighan & Dennis M. Ritchie
- * 2ª edição, 1988
+ * (2ª edição em 1988)
+ *
+ * The C Answer Book
+ * Clovis L. Tondo & Scott E. Gimpel
+ * (2ª edição em 1989)
  * 
- * c01_s1.5_c10.c (página 18)
+ * c01_s1.5_c10.c (K&R: página 18)
  *
  * Conta a quantidade de caracteres no input.
  * 2ª versão.
