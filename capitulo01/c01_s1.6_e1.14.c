@@ -31,7 +31,7 @@ int main (void)
         // esteja na faixa do ASCII original, ou seja, estamos ignorando os
         // caracteres maiores que NCARS do ASCII original (caracteres >= 128),
         // se existirem no charater set do input:
-        if (c <= NCARS)
+        if (c < NCARS)
             ++freq[c];
     }
 
