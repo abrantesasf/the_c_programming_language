@@ -18,10 +18,6 @@
 
 #define TMAXHIST  30   // Tamanho máximo da barra do histograma
 #define NCARS    128   // Número de caracteres na tabela ASCII.
-                       //    Atenção: estou partindo do pressuposto que o input
-                       //    só terá caracteres ASCII originais, sem acentos.
-                       //    Se o input contiver acentos o programa não
-                       //    funcionará corretamente!!!
 
 int main (void)
 {
@@ -31,8 +27,12 @@ int main (void)
     // Enquanto houver caracteres,
     while ((c = getchar()) != EOF)
     {
-        // Aumenta a contagem desse caractere específico
-        ++freq[c];
+        // Aumenta a contagem desse caractere específico, desde que o caractere
+        // esteja na faixa do ASCII original, ou seja, estamos ignorando os
+        // caracteres maiores que NCARS do ASCII original (caracteres >= 128),
+        // se existirem no charater set do input:
+        if (c <= NCARS)
+            ++freq[c];
     }
 
     // Verifica qual foi a maior freqüência encontrada, para podermos
