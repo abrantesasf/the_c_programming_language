@@ -195,4 +195,58 @@ Em geral, se c é uma variável inteira (ou char) que armazena o valor de um
 dígito representado por um caractere ASCII, `c - '0'` é uma expressão inteira
 com um valor entre 0 e 9, correspondendo ao caractere entre '0' e '9' armazenado
 na variável c.
-  
+
+
+## 1.7 Funções
+
+Funções são uma maneira conveniente de encapsular alguma seqüência de ações, que
+podem então ser utilizadas sem que tenhamos que nos preocupar sobre a
+implementação dessas ações. Podemos ignorar **como** uma função funciona, basta
+saber **o que** ela faz.
+
+Até agora vimos 3 funções: `printf`, `getchar` e `putchar`. Para escrevermos
+nossas próprias funções, fazemos o seguinte:
+
+tipo-de-retorno nome-da-função (parâmetros) {corpo; return expression;}
+
+As definições das funções podem aparecer em qualquer ordem, em um único arquivo
+ou espalhadas por diversos arquivos-fonte. Ao definirmos a função os parâmetros
+(se houverem), devem ser declarados com "tipo nome". Se a função não retornar
+nada (ou seja, se for um procedimento), deve ter seu tipo de retorno definido
+como `void`. Se não receber parâmetros, a lista de parâmetros deve ter a palavra
+`void`.
+
+A função main deve retornar um inteiro para indicar sucesso (geralmente 0) ou
+falha (algum inteiro diferente de zero).
+
+Antes da main devemos colocar um protótipo da função que será definida
+posteriormente. Nesse protótipo os nomes dos parâmetros NÃO PRECISAM ser os
+mesmos dos usados na definição da função; aliás, nos protótipos só o tipo dos
+parâmetros é obrigatório, os nomes são opcionais. É boa prática de programação
+utilizar bons nomes na definição da função, e repetir esses nomes nos
+protótipos, por questões de clareza e documentação.
+
+
+## 1.8 Argumentos: passagem por valor
+
+Em C, **TODOS** os argumentos de função são **passados por valor**, ou seja, a
+função que é chamada recebe cópias dos argumentos em variáveis temporárias, não
+as variáveis originais. Assim a função chamada não pode diretamente alterar uma
+variável que foi passada como argumento; a função pode alterar apenas a sua
+cópia privada temporária.
+
+Quando necessário é possível fazer com que uma função modifique uma variável que
+foi passada em uma chamada, se passarmos o endereço da variável (tecnicamente
+devemos passar um **ponteiro** para a variável) e, nesse caso, a função deve
+declarar que o parâmetro é um ponteiro e acessamos a variável de modo indireto,
+através desse ponteiro.
+
+Com **arrays** a situação é um ponto diferente: quando passamos o nome de um
+array para uma função, o valor que é passado para a função é o endereço do
+início do array (não há cópia dos elementos do array). Fazendo o subscrito desse
+endereço a função pode acessar e alterar qualquer elemento no array original.
+
+
+## 1.9 Arrays de caracteres
+
+O tipo mais comum de array em C é o array de caracteres.
