@@ -249,4 +249,12 @@ endereço a função pode acessar e alterar qualquer elemento no array original.
 
 ## 1.9 Arrays de caracteres
 
-O tipo mais comum de array em C é o array de caracteres.
+O tipo mais comum de array em C é o array de caracteres. Toda linha de texto
+tem, pelo menos, 1 caractere, pois mesmo uma linha contendo apenas uma newline
+tem comprimento 1.
+
+O caractere nulo (null character) '\0' é utilizado para marcar o fim de uma
+string de caracteres. Note que a string pode ter ou não o '\n': não há nada de
+especial no '\n', é apenas mais um caractere da string. Mas, tendo ou não o
+'\n', é necessário que o '\0' marque o final de uma string. Mas atenção: o '\0'
+não é considerado parte da string!

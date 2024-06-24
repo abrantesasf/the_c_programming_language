@@ -7,12 +7,15 @@
  * Clovis L. Tondo & Scott E. Gimpel
  * (2ª edição em 1989)
  * 
- * c01_s1.9_c15.c (K&R: página ; T&G: página )
+ * c01_s1.9_c15.c (K&R: página 29)
+ *
+ * Programa que lê um conjunto de linhas e imprime a maior linha.
+ *
  */
 
 #include <stdio.h>
 
-#define TMAXLINHA 1000     // tamanho máximo da linha no input
+#define TMAXLINHA 1000    // tamanho máximo da linha no input
 
 int getlinha (char linha[], int tmaxlinha);
 void copiar (char para[], char de[]);
@@ -45,6 +48,9 @@ int getlinha (char linha[], int tmaxlinha)
 {
     int c, i;
 
+    // "tmaxlinha - 1" para garantir que não ocorrerá overflow da string; no
+    // máximo, o último caractere será o '\0', mesmo que a string não tenha
+    // um '\n':
     for (i = 0; i < tmaxlinha - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
         linha[i] = c;
 
